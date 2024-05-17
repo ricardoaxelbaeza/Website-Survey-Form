@@ -1,0 +1,72 @@
+
+//TODO: Figure out how to get rid of bottom fieldset line
+//TODO: Figure out how to "grey out" select option
+h1,p{
+  text-align:center;
+}
+
+h1{
+  margin-top:35px;
+  color:#6F3A78;
+  font-size: 45px;
+}
+
+p{
+  color:#4B577C;
+  font-size:17px;
+  margin-bottom:30px;
+}
+
+body{
+  width:480px;
+  margin:auto;
+  
+  margin-bottom:30px;
+  background-image: url("https://media.istockphoto.com/id/957807328/vector/highway-drive-with-beautiful-spruce-forest-landscape-highway-drive-adventure-travel-summer.jpg?s=2048x2048&w=is&k=20&c=3T_KWFYUIbUZTYMRTeCJkW8-aiQSbN0z25JKv-9mmHU=");
+}
+
+label{
+  display: block;
+  padding:10px;
+  text-align:left;
+}
+
+input[type="text"],input[type="email"],input[type="number"]{
+  margin-left: 5px; //adds space next to label!
+}
+
+select,input[type="radio"],textarea{
+  margin-top:9px;
+}
+
+textarea{
+  width:285px;
+}
+
+input[type="submit"]{
+  margin-top:12px;
+}
+
+.checkbox-option{
+  margin-top:10px;
+}
+
+
+form{
+  max-width:400px;
+  margin:auto;
+}
+
+.submit{
+  text-align:center;
+}
+
+fieldset{
+  border:0;
+  border-bottom: 1.5px solid white;
+  background-image: linear-gradient(to right,  #7c677f,#8076a3);
+  color:white;
+}
+
+
+
