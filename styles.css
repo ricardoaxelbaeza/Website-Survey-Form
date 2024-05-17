@@ -1,6 +1,7 @@
 
-//TODO: Figure out how to get rid of bottom fieldset line
-//TODO: Figure out how to "grey out" select option
+/* //TODO: Figure out how to get rid of bottom fieldset line
+//TODO: Figure out how to "grey out" select option */
+
 h1,p{
   text-align:center;
 }
@@ -67,6 +68,10 @@ fieldset{
   background-image: linear-gradient(to right,  #7c677f,#8076a3);
   color:white;
 }
+
+
+
+
 
 
 
