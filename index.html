@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta charset="UTF-8"/>
+     <title>Customer Satisfaction Survey</title>
+     <link rel="stylesheet" href="styles.css">
+  </head>
+ 
+  <body>
+    <h1 id="title">Customer Satisfaction Survey</h1>
+    <div id="textbox">
+    <p id="description">Thank you for taking the time to shop with us! Please fill out this survey, so that we may better serve you in the future.</p>
+    </div>
+
+    <form id="survey-form">
+      <fieldset> 
+        <label id="name-label">Name
+           <input required id="name" type="text" placeholder="Enter your name"></input> 
+        </label>
+        <label id="email-label">Email
+           <input required id="email" type="email" placeholder="Enter your email"></input>
+        </label>
+        <label id="number-label">Age
+           <input placeholder="15" id="number" type="number" min="15" max="120">
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <label>How satisfied were you overall with our services?
+          <select id="dropdown">
+              <option>select an option</option>
+              <option>very satisfied</option>
+              <option>satisfied</option>
+              <option>dissatisfied</option>
+              <option>very dissatisfied</option>
+
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>Are you likely to recommend our services to others?
+         <input value="yes" checked name="yes-no" type="radio"> Yes
+         </input>
+         <input  value="no" name="yes-no" type="radio"> No</input>
+
+        </label>
+      </fieldset>
+
+      <fieldset>
+      
+        <label>Please Select From The Following Options:
+          <div class="checkbox-option">
+          <input value="feedback" type="checkbox">I'd like to recieve any future promotions and discounts via email.</input>
+          </div>
+          <div class="checkbox-option">
+          <input value="feedback" type="checkbox">I'm most likely to return as a regular customer.</input>
+           </div>
+            <div class="checkbox-option">
+          <input value="feedback" type="checkbox">I'd like to see an improvement</input>
+           </div>
+        </label>
+
+      </fieldset>
+
+      <fieldset>
+        <label>Feel free to leave any additional comments!
+          <textarea>
+          </textarea>
+        </label>
+      
+      </fieldset>
+
+      <div class="submit" >
+      <input id="submit" type="submit" value="submit">
+      </div>
+      </input>
+
+    </form>
+  </body>
+
+</html>
