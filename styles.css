@@ -1,7 +1,6 @@
 
-/* //TODO: Figure out how to get rid of bottom fieldset line
-//TODO: Figure out how to "grey out" select option */
-
+/* TODO: Figure out how to get rid of bottom fieldset line
+TODO: Figure out how to "grey out" select option */
 h1,p{
   text-align:center;
 }
@@ -33,11 +32,17 @@ label{
 }
 
 input[type="text"],input[type="email"],input[type="number"]{
-  margin-left: 5px; //adds space next to label!
+  margin-left: 5px; 
+  border-radius:50px;
+  padding:8px;
+  border:none;
 }
 
 select,input[type="radio"],textarea{
   margin-top:9px;
+  
+  padding:8px;
+  border:none;
 }
 
 textarea{
@@ -68,10 +73,6 @@ fieldset{
   background-image: linear-gradient(to right,  #7c677f,#8076a3);
   color:white;
 }
-
-
-
-
 
 
 
